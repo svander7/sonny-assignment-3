@@ -6,7 +6,7 @@ public class UserLoginApplication {
 	
 	public static void main(String[] args) {
 
-		String filePath = "data";
+		String filePath = "data.txt";
 		User[] users = CollectedData.DataFromFile(filePath);
 
 		Scanner scanner = new Scanner(System.in);

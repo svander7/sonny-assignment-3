@@ -6,12 +6,6 @@ import java.io.IOException;
 
 public class CollectedData {
 
-	public static void main(String[] args) {
-
-		String filePath = "data";
-		User[] users = DataFromFile(filePath);
-	}
-
 	public static User[] DataFromFile(String filePath) {
 		User[] users = new User[4];
 
